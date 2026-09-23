@@ -59,9 +59,19 @@ screenshots/
 ```
 
 ## Screenshots
-Add screenshots to the `screenshots/` folder and link them here:
 
-`![Dashboard](screenshots/dashboard.png)`
+### Demo Images
+
+<p align="center">
+  <img src="screenshots/photo1.png" alt="Smart File Organizer Demo 1" width="30%">
+  <img src="screenshots/photo2.png" alt="Smart File Organizer Demo 2" width="30%">
+  <img src="screenshots/photo3.png" alt="Smart File Organizer Demo 3" width="30%">
+</p>
+
+<p align="center">
+  <img src="screenshots/photo4.png" alt="Smart File Organizer Demo 4" width="30%">
+  <img src="screenshots/photo5.png" alt="Smart File Organizer Demo 5" width="30%">
+</p>
 
 ## Future Improvements
 - Move deleted files to Recycle Bin
