@@ -1,0 +1,103 @@
+.root {
+    -fx-font-family: "Segoe UI", "System";
+    -fx-font-size: 13px;
+}
+.app-root { -fx-background-color: #f1f5f9; }
+
+/* Sidebar */
+.sidebar { -fx-background-color: #0f172a; -fx-padding: 24 14 24 14; }
+.app-title { -fx-text-fill: white; -fx-font-size: 20px; -fx-font-weight: bold; }
+.app-subtitle { -fx-text-fill: #94a3b8; -fx-font-size: 12px; }
+.nav-button {
+    -fx-background-color: transparent; -fx-background-insets: 0;
+    -fx-text-fill: #cbd5e1; -fx-alignment: CENTER_LEFT;
+    -fx-padding: 10 14 10 14; -fx-background-radius: 8;
+    -fx-font-size: 14px; -fx-cursor: hand;
+}
+.nav-button:hover { -fx-background-color: #1e293b; }
+.nav-button.active { -fx-background-color: #3b82f6; -fx-text-fill: white; -fx-font-weight: bold; }
+.version-label { -fx-text-fill: #64748b; -fx-font-size: 11px; }
+
+/* Header */
+.header {
+    -fx-background-color: white; -fx-padding: 14 24 14 24;
+    -fx-border-color: #e2e8f0; -fx-border-width: 0 0 1 0;
+}
+.path-label {
+    -fx-text-fill: #475569; -fx-background-color: #f1f5f9;
+    -fx-padding: 9 12 9 12; -fx-background-radius: 8;
+}
+
+/* Buttons */
+.app-button {
+    -fx-background-insets: 0; -fx-background-radius: 8;
+    -fx-padding: 9 18 9 18; -fx-font-weight: bold; -fx-cursor: hand;
+    -fx-text-fill: white;
+}
+.btn-primary { -fx-background-color: #3b82f6; }
+.btn-primary:hover { -fx-background-color: #2563eb; }
+.btn-secondary { -fx-background-color: #64748b; }
+.btn-secondary:hover { -fx-background-color: #475569; }
+.btn-success { -fx-background-color: #10b981; }
+.btn-success:hover { -fx-background-color: #059669; }
+.btn-danger { -fx-background-color: #ef4444; }
+.btn-danger:hover { -fx-background-color: #dc2626; }
+
+/* Text */
+.page-title { -fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #0f172a; }
+.section-title { -fx-font-size: 16px; -fx-font-weight: bold; -fx-text-fill: #1e293b; }
+.muted { -fx-text-fill: #64748b; }
+.empty-state {
+    -fx-text-fill: #64748b; -fx-font-size: 15px;
+    -fx-background-color: white; -fx-background-radius: 12; -fx-padding: 28;
+}
+
+/* Cards */
+.card, .mini-card {
+    -fx-background-color: white; -fx-background-radius: 12; -fx-padding: 18;
+    -fx-effect: dropshadow(gaussian, rgba(15,23,42,0.08), 12, 0, 0, 2);
+}
+.mini-card { -fx-padding: 14; }
+.card-title { -fx-text-fill: #64748b; -fx-font-size: 12px; -fx-font-weight: bold; }
+.card-value { -fx-text-fill: #0f172a; -fx-font-size: 28px; -fx-font-weight: bold; }
+.mini-value { -fx-text-fill: #3b82f6; -fx-font-size: 22px; -fx-font-weight: bold; }
+.card-sub { -fx-text-fill: #94a3b8; -fx-font-size: 12px; }
+
+/* Inputs */
+.search-field {
+    -fx-background-color: white; -fx-background-radius: 8;
+    -fx-border-color: #cbd5e1; -fx-border-radius: 8; -fx-padding: 8 12 8 12;
+}
+.search-field:focused { -fx-border-color: #3b82f6; }
+.combo-box { -fx-background-color: white; -fx-border-color: #cbd5e1; -fx-border-radius: 8; -fx-background-radius: 8; }
+
+/* Tables */
+.table-view {
+    -fx-background-color: white; -fx-background-radius: 10;
+    -fx-border-color: #e2e8f0; -fx-border-radius: 10;
+}
+.table-view .column-header-background { -fx-background-color: #f8fafc; -fx-background-radius: 10 10 0 0; }
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: #f8fafc; -fx-size: 40;
+    -fx-border-color: transparent transparent #e2e8f0 transparent;
+}
+.table-view .column-header .label { -fx-text-fill: #334155; -fx-font-weight: bold; -fx-alignment: CENTER_LEFT; }
+.table-row-cell { -fx-background-color: white; -fx-cell-size: 36; -fx-table-cell-border-color: transparent; }
+.table-row-cell:odd { -fx-background-color: #f8fafc; }
+.table-row-cell.group-even { -fx-background-color: #eff6ff; }
+.table-row-cell.group-odd { -fx-background-color: white; }
+.table-row-cell:selected { -fx-background-color: #dbeafe; }
+.table-row-cell:selected .table-cell { -fx-text-fill: #1e3a8a; }
+.table-cell { -fx-alignment: CENTER_LEFT; -fx-text-fill: #1e293b; }
+
+/* Status bar + log */
+.status-bar {
+    -fx-background-color: white; -fx-padding: 10 24 10 24;
+    -fx-border-color: #e2e8f0; -fx-border-width: 1 0 0 0;
+}
+.progress-bar { -fx-accent: #3b82f6; }
+.log-area {
+    -fx-font-family: "Consolas", "Monospaced"; -fx-font-size: 12px;
+    -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: #e2e8f0;
+}
+.log-area .content { -fx-background-color: white; -fx-background-radius: 10; }
